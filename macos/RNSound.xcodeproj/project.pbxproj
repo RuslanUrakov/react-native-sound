@@ -7,12 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		700F932F2243C9E0006E95F7 /* Starling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700F932E2243C9E0006E95F7 /* Starling.swift */; };
 		700F93442243ECE8006E95F7 /* RNSoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 700F93432243ECE8006E95F7 /* RNSoundManager.m */; };
 		700F93A522444254006E95F7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 700F9346224405CD006E95F7 /* AVFoundation.framework */; };
-		70EFB01222468F91003DB33F /* WavInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EFB00922468766003DB33F /* WavInfo.swift */; };
-		70EFB01422469978003DB33F /* AudioInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EFB01322469978003DB33F /* AudioInfo.swift */; };
-		70EFB0162246A7CE003DB33F /* NSData+Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EFB0152246A7CE003DB33F /* NSData+Audio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,15 +86,11 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libRNSound.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNSound.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		700F932E2243C9E0006E95F7 /* Starling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Starling.swift; sourceTree = "<group>"; };
 		700F93422243ECE8006E95F7 /* RNSoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSoundManager.h; sourceTree = "<group>"; };
 		700F93432243ECE8006E95F7 /* RNSoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSoundManager.m; sourceTree = "<group>"; };
 		700F9346224405CD006E95F7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		700F93A622445FA7006E95F7 /* RCTNetwork.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTNetwork.xcodeproj; path = "../../../../../react-native/macos/Libraries/Network/RCTNetwork.xcodeproj"; sourceTree = "<group>"; };
 		703957AC222D6BD3004D2364 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native-macos/React/React.xcodeproj"; sourceTree = "<group>"; };
-		70EFB00922468766003DB33F /* WavInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WavInfo.swift; sourceTree = "<group>"; };
-		70EFB01322469978003DB33F /* AudioInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioInfo.swift; sourceTree = "<group>"; };
-		70EFB0152246A7CE003DB33F /* NSData+Audio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSData+Audio.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,10 +157,6 @@
 		70408032222CAAC7002B7C38 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				700F932E2243C9E0006E95F7 /* Starling.swift */,
-				70EFB00922468766003DB33F /* WavInfo.swift */,
-				70EFB01322469978003DB33F /* AudioInfo.swift */,
-				70EFB0152246A7CE003DB33F /* NSData+Audio.swift */,
 				700F93422243ECE8006E95F7 /* RNSoundManager.h */,
 				700F93432243ECE8006E95F7 /* RNSoundManager.m */,
 			);
@@ -317,11 +305,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				700F932F2243C9E0006E95F7 /* Starling.swift in Sources */,
-				70EFB01222468F91003DB33F /* WavInfo.swift in Sources */,
 				700F93442243ECE8006E95F7 /* RNSoundManager.m in Sources */,
-				70EFB01422469978003DB33F /* AudioInfo.swift in Sources */,
-				70EFB0162246A7CE003DB33F /* NSData+Audio.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

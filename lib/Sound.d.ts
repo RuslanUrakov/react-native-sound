@@ -29,11 +29,15 @@ export declare class Sound implements SoundProps {
     /** Useful for muting a sound without affecting its `volume` prop. */
     muted: boolean;
     /** Play the sound once. */
+    loops: boolean;
     play(options?: {
         volume?: number;
+        loops?: boolean;
     }): Promise<void> | undefined;
-    /** Unload the sound asset. This instance cannot be reused. */
-    dispose(): void;
+    stop(): void;
+    pause(): void;
+    resume(): void;
+    setVolume(volume: number): void;
     private _resolveSource;
 }
 export {};
